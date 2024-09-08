@@ -15,3 +15,8 @@ It replaces the back button with support for a laser (see [flipper-laserpointer]
 ## Building
 
 To build this application, run [`ufbt`](https://github.com/flipperdevices/flipperzero-ufbt)
+
+
+## Screenshots
+![Main Menu](https://raw.githubusercontent.com/Badbird5907/flipper-slides/master/readme_images/mainmenu.png)
+![Keynote](https://raw.githubusercontent.com/Badbird5907/flipper-slides/master/readme_images/keynote.png)
