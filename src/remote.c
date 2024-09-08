@@ -48,8 +48,6 @@ Remote* remote_alloc() {
     Remote* app = malloc(sizeof(Remote));
     
     app->laser_enabled = true;
-    // check if gpio A4 and B3 is bridged
-    
 
     app->gui = furi_record_open(RECORD_GUI);
     app->bt = furi_record_open(RECORD_BT);
