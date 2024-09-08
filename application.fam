@@ -1,0 +1,15 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+App(
+    appid="presentation_remote",  # Must be unique
+    name="Presentation Remote",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="presentation_remote_app",
+    stack_size=2 * 1024,
+    fap_libs=["ble_profile"],
+    fap_description="The HID app but with only vertical keynote and a laser pointer",
+    fap_version="1.0",
+    fap_category="Custom",
+    fap_icon="remote_ble_10px.png",
+    fap_icon_assets="assets",
+    fap_icon_assets_symbol="remote",
+)
